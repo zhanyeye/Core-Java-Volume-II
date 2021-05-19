@@ -6,6 +6,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+/**
+ * @Author zhanyeye
+ * @Description 1.1 从迭代到流的操作
+ * @Date 5/18/2021
+ **/
 public class Iteration2Stream {
     public static void main(String[] args) throws IOException {
         String contents =  new String(Files.readAllBytes(Paths.get("E:\\alice.txt")), StandardCharsets.UTF_8);
